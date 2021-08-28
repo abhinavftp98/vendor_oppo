@@ -143,7 +143,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/RMX1805/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
     vendor/oppo/RMX1805/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
     vendor/oppo/RMX1805/proprietary/system_ext/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qti-telephony-common.jar \
-    vendor/oppo/RMX1805/proprietary/system_ext/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmframework.so
+    vendor/oppo/RMX1805/proprietary/system_ext/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmframework.so \
+    vendor/oppo/RMX1805/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml 
 
 PRODUCT_PACKAGES += \
     SoterService \
@@ -164,6 +165,9 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     izat.xt.srv \
     tcmclient \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
+    com.android.hotwordenrollment.common.util \
     vendor.qti.data.factory-V1.0-java \
     vendor.qti.data.factory-V1.1-java \
     vendor.qti.hardware.data.connection-V1.0-java \
